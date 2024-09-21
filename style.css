@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Roboto", sans-serif;
 }
 
-/* header starts */
+/* header starts here*/
 header{
     background-image: url("images/banner-image.jpg");
     background-position: center;
@@ -56,4 +56,35 @@ header{
     font-family: "Handlee", cursive;
     border-radius: 5px;
 }
-/* header ends */
+/* header ends here*/
+
+
+/* features strats here */
+
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+
+}
+
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4s;
+
+}
+
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 6px 6px black;
+}
+
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+/* features ends here */
