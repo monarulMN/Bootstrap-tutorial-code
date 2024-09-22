@@ -132,3 +132,86 @@ header{
 
 
 /* about-me ends here */
+
+
+/* tutorial starts here */
+
+#tutorial{
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial ends here */
+
+/* feedback starts here */
+
+#feedback{
+    padding: 5%;
+    background: #5e8888;
+}
+
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+
+}
+
+
+/* feedback ends here */
+
+/* contact me starts here */
+
+#contact-me{
+    padding: 2% 10%;
+    background: #5ea5bc;
+}
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* contact me ends here */
+
+/* footer starts here */
+footer{
+    padding: 1% 10%;
+    background: #056679;
+}
+
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+}
+
+/* footer ends here */
+
+
+@media(max-width:768px){
+    .nav-link{
+        background: rgb(0, 0, 0, 0.7);
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+    }
+}
